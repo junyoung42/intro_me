@@ -1,0 +1,86 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+/* header 부분 */
+nav {
+    display: block;
+}
+
+nav ul{
+    display : flex;
+    background-color: grey;
+    margin : 0;
+    padding:0;
+}
+nav ul li{
+    padding : 15px;
+    list-style: none;
+    
+}
+nav a{
+    color:white;
+    text-decoration-line: none;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
+
+
+
+/* main부분 */
+main{
+    padding:32px;
+}
+#name{
+    font-size: 48px;
+    font-family: "Gothic A1", sans-serif;
+    margin: 20px 0;
+}
+.profile img{
+    transition : all 0.5s linear;
+    width:320px;
+    height:320px;
+}
+
+.profile{
+    width:320px;
+    height:320px;
+    overflow: hidden;
+}
+
+#cv{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+}
+.sub-title{
+    font-size: 32px;
+    margin: 30px 0 10px 0;
+}
+
+
+
+/* footer부분 */
+footer{
+    padding: 37px;
+    background-color: darkgrey;
+    
+}
+
+
+/* 마우스 올려놨을 시 효과 */
+
+nav a:hover {
+    background-color: darkgrey;
+    letter-spacing:4px;
+}
+
+.profile img:hover {
+    transform : scale(1.4);
+    
+
+}
